@@ -1,0 +1,110 @@
+PREGUNTAS CLAVES
+1. ¿Que dispositivos son los mas usados por la poblacion?
+
+2. ¿Que mes presenta el mayor pico de uso de la cobertura wifi?
+
+PROCESO DEL PROYECTO FINAL CURSO
+1. Carga del dataset
+
+2. Se crea un resumen inicial del dataset
+
+3. Se crea una copia del dataset original para trabajar
+
+4. Se normalizan los datos colocando los datos en mayusculas y minisculas
+
+5. Se verifica el conteo de las columnas categoricas y subniveles
+
+6. Se convierten las columnas a su tipo de dato correspondiente
+
+7. Se cuentan los valores ceros de las columnas SMARTPHONE, TABLET y PC
+
+8. Se eliminan los valores ceros de las columnas SMARTPHONE, TABLET y PC
+
+9. Se guarda el dataset limpio en un nuevo archivo CSV
+
+10. Creamos una nueva columna con el total de dispositivos
+
+11. Se resta la poblacion total de Cartagena con el total de dispositivos para obtener la poblacion que no tiene wifi
+
+12. Se agrupa por corregimiento/barrio para ver el total de dispositivos por corregimiento
+
+13. Se calcula la cobertura wifi que hay en cartagena
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Normalizacion de los datos colocando los datos en mayusculas y minisculas
+
+2. Ver conteo de las columnas categoricas y subniveles
+
+3. Convertir MES a numero con mapeo explicito
+
+4. Convertir AÑO a numero
+
+5. Convertir SMARTPHONE a tipo numero int
+
+6. Convertir TABLET y PC a tipo numero int
+
+7. Realizar un outliers a SMARTPHONE
+
+8. Identificar los valores atipicos de SMARTPHONE
+
+9. Reemplazar los valores atipicos de SMARTPHONE por la media
+
+10. Quitar los valores en "cero" de las columnas TABLET y PC para cambiarlas por la media
+
+11. Realizar las 3 medidas de tendencia (media, mediana, moda) de SMARTPHONE
+
+12. Realizar las 3 medidias de tendencia (media, mediana, moda) de TABLET
+
+13. Realizar las 3 medidias de tendencia (media, mediana, moda) de PC
+
+14. Se crea una nueva columna llamada TOTAL_DISPOSITIVOS que suma los valores de SMARTPHONE, TABLET, PC y DISPOSITIVOS SIN CLASIFICAR en donde se ve que Corregimientos/barrios tienen mayor volumen de dispositivos conectados y visualizacion en una grafica de barras
+
+15. Se crea una grafica donde se ven los dispositivos mas usados por la poblacion
+
+16. Se crea una grafica donde se ven los meses con mayor pico de uso de la cobertura wifi
